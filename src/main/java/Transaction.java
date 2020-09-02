@@ -65,7 +65,7 @@ public class Transaction {
 
     @Override
     public String toString() {
-        return "Transaction{" +
+        return "\n" + "Transaction{" +
                 "id=" + id +
                 ", type=" + type +
                 ", description='" + description + '\'' +
