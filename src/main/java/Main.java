@@ -9,12 +9,14 @@ public class Main {
 
         while (true) {
 
+            System.out.println();
             System.out.println("Budżet domowy - wybierz czynność");
             System.out.println("Dodaj transakcję (1)");
             System.out.println("Usuń transakcję (2)");
             System.out.println("Modyfikuj transakcję (3)");
             System.out.println("Wyświetl transakcje (4)");
             System.out.println("Zakończenie pracy (5)");
+            System.out.println();
             System.out.print("Twój wybór: ");
 
             String option = scanner.nextLine();
